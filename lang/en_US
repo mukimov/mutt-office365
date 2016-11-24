@@ -9,6 +9,7 @@ set my_trash_noquote="Deleted Items"
 set my_wrike="Wrike"
 set my_errors="Errors"
 set my_cr="CR"
+set my_mf="MF"
 
 # Quotation and date formats
 set attribution="The %d, %n wrote:"

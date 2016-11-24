@@ -140,6 +140,8 @@ macro   index   gt "<change-folder>=$my_trash<enter>"   "Go to Trash"
 macro   index   gw "<change-folder>=$my_wrike<enter>"   "Go to Wrike"
 macro   index   gc "<change-folder>=$my_cr<enter>"      "Go to CR"
 macro   index   ge "<change-folder>=$my_errors<enter>"  "Go to Errors"
+macro   index   gm "<change-folder>=$my_mf<enter>"      "Go to MF"
 
 source ~/.mutt/bindings
+source ~/.mutt/macros
 

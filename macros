@@ -1,0 +1,11 @@
+# vim: ft=muttrc
+
+macro index,pager \cb "<pipe-message> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+macro attach,compose \cb "<pipe-entry> urlscan<Enter>" "call urlscan to extract URLs out of a message"
+
+macro index <esc>m "\
+<tag-pattern>~N|~O<enter>\
+<tag-prefix-cond>\
+<tag-prefix><clear-flag>N\
+<tag-prefix><clear-flag>O\
+<untag-pattern>~T<enter>" "mark all messages read"
